@@ -1,3 +1,23 @@
 <resources>
-    <string name="app_name">ListView</string>
+    <string name="app_name">リスト選択サンプル</string>
+    <string-array name="lv_menu">
+        <item>から 揚げ 定食 </item>
+        <item>ハンバーグ 定食 </item>
+        <item>生姜 焼き 定食 </item>
+        <item>ステーキ 定食 </item>
+        <item>野菜 炒め 定食 </item>
+        <item>とん かつ 定食 </item>
+        <item>ミンチ かつ 定食 </item>
+        <item>チキン カツ 定食 </item>
+        <item>コロッケ 定食 </item>
+        <item>回鍋肉 定食 </item>
+        <item>麻婆豆腐 定食 </item>
+        <item>青 椒 肉 絲 定食 </item>
+        <item>八宝菜 定食 </item>
+        <item>酢豚 定食 </item>
+        <item>豚 の 角煮 定食 </item>
+        <item>焼き鳥 定食 </item>
+        <item>焼き魚 定食 </item>
+        <item>焼肉 定食 </item>
+    </string-array>
 </resources>
