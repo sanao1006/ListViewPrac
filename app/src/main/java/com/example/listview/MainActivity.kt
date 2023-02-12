@@ -15,6 +15,10 @@ class MainActivity : AppCompatActivity() {
         lvMenu.onItemClickListener = ListItemClickListener()
     }
     private  inner class  ListItemClickListener: AdapterView.OnItemClickListener{
+//        @parent : タップされたリスト全体
+//        @view : タップされた1行分の画面部品そのもの @
+//        @position : 行番号 0スタート
+//        @DBの主キー
         override fun onItemClick(parent: AdapterView<*>, view: View, position: Int, id: Long) {
             var item = parent.getItemAtPosition(position) as String
             val show = "あなたが選んだ定食: $item"
